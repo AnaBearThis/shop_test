@@ -1,0 +1,8 @@
+.product-list {
+    max-width: 1440px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    margin: 24px 0;
+    box-sizing: border-box;
+}
